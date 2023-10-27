@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add T-Shirt to Bag",
+        "description": "",
+        "id": "myntra-web-application-automation;add-t-shirt-to-bag",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39148598800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the Myntra web application",
+            "match": {
+              "location": "myntraOrder.i_open_the_Myntra_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4842554300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I type and search for the \"T-Shirt\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"T-Shirt\"",
+                  "offset": 26
+                }
+              ],
+              "location": "myntraOrder.i_type_and_search_for_the_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11176888500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I select the first product",
+            "match": {
+              "location": "myntraOrder.i_select_the_first_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11319389000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select the \"M\" size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M\"",
+                  "offset": 13
+                }
+              ],
+              "location": "myntraOrder.i_select_the_size(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 909289400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the \"Add To Bag\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add To Bag\"",
+                  "offset": 12
+                }
+              ],
+              "location": "myntraOrder.i_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620109100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I close the current tab",
+            "match": {
+              "location": "myntraOrder.i_close_the_current_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9742602200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the bag icon",
+            "match": {
+              "location": "myntraOrder.i_click_the_bag_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2232631400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I take a screenshot of the selected bag",
+            "match": {
+              "location": "myntraOrder.i_take_a_screenshot_of_the_selected_bag()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Myntra Web Application Automation",
+    "description": "",
+    "id": "myntra-web-application-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Myntra.feature",
+    "tags": []
+  }
+]

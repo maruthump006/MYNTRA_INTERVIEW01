@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="80.006018">
+    <testcase classname="Myntra Web Application Automation" name="Add T-Shirt to Bag" time="80.006018">
+        <system-out><![CDATA[Given I open the Myntra web application.....................................passed
+And I type and search for the "T-Shirt" product.............................passed
+And I select the first product..............................................passed
+And I select the "M" size...................................................passed
+And I click the "Add To Bag" button.........................................passed
+Then I close the current tab................................................passed
+And I click the bag icon....................................................passed
+And I take a screenshot of the selected bag.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
